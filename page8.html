@@ -1,0 +1,32 @@
+<div data-role="page">
+    <div data-role="header">
+    	<a href="index.html" data-icon="home">Home</a>
+    	<h1>Header</h1>
+    </div>
+    <div data-role="content">
+    	<div data-role="section">
+			<label for="slider">Slider:</label>
+			<input type="range" name="slider" id="slider" value="50" min="0" max="100">
+		</div>
+    	<div data-role="section">
+			<label for="slider">Slider (10er Schritte):</label>
+			<input type="range" name="slider" id="slider" value="50" min="0" max="100" step="10">
+		</div>
+		<div data-role="section">
+		   	<div data-role="rangeslider">
+		   		<label for="range-min">Bereichslider:</label>
+				<input type="range" name="range-min" id="range-min" min="0" max="100" value="40">
+				<label for="range-max">Bereichslider:</label>
+				<input type="range" name="range-max" id="range-max" min="0" max="100" value="80">
+			</div>
+    	</div>
+		<div data-role="section">
+		   	<div data-role="rangeslider">
+		   		<label for="range-min">Bereichslider (10er Schritte):</label>
+				<input type="range" name="range-min" id="range-min" min="0" max="100" value="40" step="10">
+				<label for="range-max">Bereichslider (10er Schritte):</label>
+				<input type="range" name="range-max" id="range-max" min="0" max="100" value="80" step="10">
+			</div>
+    	</div>
+	</div>
+</div>
